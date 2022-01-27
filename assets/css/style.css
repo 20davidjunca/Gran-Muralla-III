@@ -5,12 +5,17 @@
 body {font-family: Verdana, sans-serif;}
 
 /*************************SLIDER*************************/
-.mySlides {display: none;}
-img {vertical-align: middle;}
+.mySlides {display: none}
+
+img {
+  vertical-align: middle;
+  height: 39rem;
+  width: auto;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
