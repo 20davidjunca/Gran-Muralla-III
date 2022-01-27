@@ -2,7 +2,11 @@
     margin:0;
     box-sizing: border-box;
 }
-body {font-family: Verdana, sans-serif;}
+body {
+  font-family: Verdana, sans-serif;
+  color: white;
+  background-color: #d25b00;
+}
 
 /*************************SLIDER*************************/
 .mySlides {display: none}
