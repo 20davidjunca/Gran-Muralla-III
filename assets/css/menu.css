@@ -3,7 +3,7 @@
     background-color: #ff7104;
     position: fixed;
     width: 100%;
-    height: 49px;
+    height: 48px;
     top:0;
     z-index: 9;
 }
@@ -19,7 +19,7 @@
 }
 
 .topnav a:hover {
-    background-color: #ffea73;
+    background-color: #d25b00;
     color: black;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .topnav .active {
-    background-color: #aaaa55;
+    background-color: #ffa058;
 }
 
 .topnav .icon {
