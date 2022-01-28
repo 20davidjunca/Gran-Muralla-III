@@ -28,7 +28,10 @@
 }
 
 .topnav .active {
-    background-color: #ffa058;
+    background-color: #ffc704;
+}
+.topnav .active:hover {
+    background-color: #d2a300;
 }
 
 .topnav .icon {
