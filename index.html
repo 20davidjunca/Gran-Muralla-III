@@ -26,7 +26,7 @@
             <i class="fa fa-bars"></i>
         </a>
     </nav>
-    <slider>
+    <slider class="col-12">
         <div class="slideshow-container" style="margin-top:49px;">
     
             <div class="mySlides fade">
@@ -54,60 +54,59 @@
         </div>
     
     </slider>
-
-    <footer>
+    <div class="contacte">
+        <form method="POST" action="">
+            <p>Nom:</p>
+            <input type="text" name="nom_complet" placeholder="Nom complet"><br>
+            <p>E-mail:</p>
+            <input type="mail" name="correu" placeholder="Correu"><br>
+            <p>Telèfon:</p>
+            <input type="tel" name="telefon" placeholder="Telèfon"><br>
+            <p>Missatge:</p>
+            <textarea cols="10"></textarea><br>
+            <input type="submit" name="enviar" value="Envia">
+        </form>
+    </div>
+    
+    <footer class="col-12">
       <i class="fa fa-instagram" aria-hidden="true"></i>
       <i class="fa fa-facebook-official" aria-hidden="true"></i>
       <i class="fa fa-twitter" aria-hidden="true"></i>
     </footer>
+    
+    
+        <!--MENU RESPONSIVE-->
+        <script language="javascript" type="text/javascript">
+            function responsiveMenu() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+            </script>
+        <!--SLIDER-->
+        <script language="javascript" type="text/javascript">
+            var slideIndex = 0;
+            showSlides();
+    
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 5000); // Change image every 5 seconds
+            }
+        </script>
 </body>
 </html>
-
-<div class="contacte">
-    <form method="POST" action="">
-        <p>Nom:</p>
-        <input type="text" name="nom_complet" placeholder="Nom complet"><br>
-        <p>E-mail:</p>
-        <input type="mail" name="correu" placeholder="Correu"><br>
-        <p>Telèfon:</p>
-        <input type="tel" name="telefon" placeholder="Telèfon"><br>
-        <p>Missatge:</p>
-        <textarea cols="10"></textarea><br>
-        <input type="submit" name="enviar" value="Envia">
-    </form>
-
-
-    <!--MENU RESPONSIVE-->
-    <script language="javascript" type="text/javascript">
-        function responsiveMenu() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-        </script>
-    <!--SLIDER-->
-    <script language="javascript" type="text/javascript">
-        var slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 5000); // Change image every 5 seconds
-        }
-    </script>
-</div>
