@@ -78,8 +78,13 @@ img {
 footer {
   margin-top: 15px;
   background-color: #974200;
+  padding: 10px;
+  display: flex;
+  flex-flow: nowrap row;
 }
-
+footer * {
+  padding: 4px;
+}
 .logo_footer {
   width: 45px;
   height: 45px;
