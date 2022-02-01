@@ -76,7 +76,13 @@ img {
 
 /*************************FOOTER*************************/
 footer {
-  background-color: #;
+  margin-top: 15px;
+  background-color: #974200;
+}
+
+.logo_footer {
+  width: 45px;
+  height: 45px;
 }
 /*************************xarxes*************************/
 #fafa1 {
