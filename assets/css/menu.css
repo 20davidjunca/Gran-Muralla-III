@@ -19,10 +19,12 @@
 }
 
 .topnav a:hover {
-    background-color: #dd6000;
-    color: black;
-    border-top: 3px solid #e2b100;
+    background-color: #f16900;
+    color: #ffc800;
+    border-bottom: 3px solid #e2b100;
+    padding: 12.5px 16px;
 }
+
 .logo {
     height: 17px;
 }
