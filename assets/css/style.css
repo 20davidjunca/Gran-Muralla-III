@@ -242,7 +242,6 @@ footer * {
   background-color: rgb(179, 221, 255);
 }
 
-
 .tel {
   width: 30px;
   height: 30px;
@@ -253,4 +252,18 @@ footer * {
 }
 .contacte {
   text-align: center;
+}
+.equip1 {
+  width: 30%;
+ margin: 30px;
+}
+.equip1 img {
+  border-radius: 20px;
+  width: 90%;
+  height: 400px;
+  padding: 0px;
+}
+.equip1 h3 {
+  text-align: center;
+  font-variant: small-caps;
 }
