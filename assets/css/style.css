@@ -144,6 +144,15 @@ footer * {
 
 
 /************info************/
+#info div {
+  padding: 5px;
+  justify-content: justify;
+}
+
+#info div * {
+  margin: 20px;
+}
+
 .muralla_img {
   width: 80%;
   height: 420px;
