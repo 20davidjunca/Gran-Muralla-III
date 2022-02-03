@@ -246,7 +246,11 @@ footer * {
   }
 }
 
-
+#equip {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
 
 .equip1 {
   width: 30%;
