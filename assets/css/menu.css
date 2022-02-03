@@ -21,8 +21,8 @@
 .topnav a:hover {
     background-color: #f16900;
     color: #ffc800;
-    border-bottom: 3px solid #e2b100;
-    padding: 13px 16px;
+    border-bottom: 4px solid #e2b100;
+    padding: 12px 16px;
 }
 
 .logo {
