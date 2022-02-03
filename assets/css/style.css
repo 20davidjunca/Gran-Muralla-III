@@ -100,6 +100,7 @@ img {
   display: flex;
   flex-flow: row nowrap;
 }
+
 .novetats1 {
   width: 30%;
   border: 1px solid #d2004e;
@@ -112,7 +113,7 @@ img {
 }
 .novetats1 img {
   border-radius: 20px;
-  width: 95%;
+  width: 90%;
   height: 400px;
 }
 .novetats1 h3 {
