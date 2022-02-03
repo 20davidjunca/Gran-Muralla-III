@@ -99,7 +99,7 @@ img {
 #novetats {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .novetats1 {
@@ -228,7 +228,7 @@ footer * {
 }
 .equip1 img {
   border-radius: 20px;
-  width: 90%;
+  width: 100%;
   height: 400px;
   padding: 0px;
 }
