@@ -74,6 +74,23 @@ img {
 /* Formulari */
 
 
+/************info************/
+#info div {
+  padding: 5px;
+  justify-content: justify;
+}
+
+#info div * {
+  margin: 20px;
+}
+
+.muralla_img {
+  width: 80%;
+  height: 420px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
 /*************************FOOTER*************************/
 footer {
   margin-top: 15px;
@@ -140,25 +157,6 @@ footer * {
   color: rgb(0, 140, 255);
   border: 4px solid rgb(179, 221, 255);
   background-color: rgb(179, 221, 255);
-}
-<<<<<<< HEAD
-
-
-/************info************/
-#info div {
-  padding: 5px;
-  justify-content: justify;
-}
-
-#info div * {
-  margin: 20px;
-}
-
-.muralla_img {
-  width: 80%;
-  height: 420px;
-  padding: 10px;
-  border-radius: 20px;
 }
 
 
