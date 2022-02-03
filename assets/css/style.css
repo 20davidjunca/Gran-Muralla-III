@@ -171,3 +171,26 @@ footer * {
 .contacte {
   text-align: center;
 }
+
+
+/************************* LA CARTA (NOSTRES PRODUCTES) *******************/
+
+.Plat{
+ border-radius: 5px;
+ padding: 10px;
+ width: 28rem;
+ height: 28rem;
+
+
+}
+
+@media (max-width: 600px) {
+  .Plat {
+    flex: 33%;
+    max-width: 33%;
+    flex-direction: row;
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
