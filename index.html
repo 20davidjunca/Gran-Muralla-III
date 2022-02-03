@@ -101,14 +101,14 @@
         <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official" id="fafa2" aria-hidden="true"></i></a>
         <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" id="fafa3" aria-hidden="true"></i></a>
         </div>
-        
-        <nav>
+
+        <nav class="botnav" id="bottomNav">
             <a href="#novetats">Novetats</a>
             <a href="#productes">Productes</a>
             <a href="#espectacles">Espectacles</a>
             <a href="#equip">Equip</a>
             <a href="#contact">Contacta</a>
-            <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+            <a href="javascript:void(0);" class="icon" onclick="hideMenu()">
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
@@ -127,7 +127,15 @@
                     x.className = "topnav";
                 }
             }
-            </script>
+            function hideMenu() {
+                var x = document.getElementById("bottomNav")
+                if (x.className === "botnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "botnav"
+                }
+            }
+        </script>
         <!--SLIDER-->
         <script language="javascript" type="text/javascript">
             var slideIndex = 0;
