@@ -141,6 +141,7 @@ footer * {
   border: 4px solid rgb(179, 221, 255);
   background-color: rgb(179, 221, 255);
 }
+<<<<<<< HEAD
 
 
 /************info************/
@@ -158,4 +159,14 @@ footer * {
   height: 420px;
   padding: 10px;
   border-radius: 20px;
+}
+
+
+.tel {
+  width: 30px;
+  height: 30px;
+}
+.ubi {
+  width: 30px;
+  height: 30px;
 }
