@@ -11,6 +11,7 @@ a {
   text-decoration: none;
 }
 
+
 /*************************SLIDER*************************/
 .mySlides {display: none}
 
@@ -229,14 +230,21 @@ footer * {
 
 
 /************************* LA CARTA (NOSTRES PRODUCTES) *******************/
-
+.p_text {
+  margin: 25px;
+  padding-left: 20px;
+}
+.divPlat {
+  width: 33%;
+  height: auto;
+}
+.divPlat p {
+  text-align: center;
+}
 .Plat{
- border-radius: 5px;
  padding: 10px;
- width: 28rem;
- height: 28rem;
-
-
+ width: 100%;
+ height: auto;
 }
 
 @media (max-width: 600px) {
@@ -244,8 +252,8 @@ footer * {
     flex: 33%;
     max-width: 33%;
     flex-direction: row;
-    width: 15rem;
-    height: 15rem;
+    width: 33%;
+    height: auto;
   }
 }
 
