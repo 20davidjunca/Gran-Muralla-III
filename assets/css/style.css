@@ -7,6 +7,9 @@ body {
   color: #fffdf8;
   background-color: #d25b00;
 }
+a {
+  text-decoration: none;
+}
 
 /*************************SLIDER*************************/
 .mySlides {display: none}
