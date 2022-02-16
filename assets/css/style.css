@@ -10,7 +10,10 @@ body {
 a {
   text-decoration: none;
 }
-
+h2 {
+  text-align: center;
+  margin: 30px;
+}
 
 /*************************SLIDER*************************/
 .mySlides {display: none}
