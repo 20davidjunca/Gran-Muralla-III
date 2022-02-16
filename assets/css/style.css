@@ -226,10 +226,11 @@ footer * {
   width: 30px;
   height: 30px;
 }
-.contacte {
+.contacte div {
   text-align: center;
+  justify-content: center;
+  align-content: center;
 }
-
 
 
 /************************* LA CARTA (NOSTRES PRODUCTES) *******************/
@@ -281,3 +282,7 @@ footer * {
   font-variant: small-caps;
 }
 
+.mapa {
+  border-radius: 10px;
+  width: 46%;
+}
