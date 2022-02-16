@@ -286,3 +286,31 @@ footer * {
   border-radius: 10px;
   width: 46%;
 }
+
+.espectacle{
+  border:2px solid black;
+  margin:15px;
+  padding:10px;
+  border-radius:0px 0px 10px 10px;
+}
+.espectacle header{
+  margin:-10px;
+  padding-left:10px;
+  border-bottom:1px solid black;
+  background-color: black;
+  color:white;
+  font-size: x-large;
+  font-weight: 400;
+  font-family: 'Montserrat';
+}
+.espectacle img{
+  margin-top:20px;
+  width:50%;
+  border-radius: 5px 5px 10px 10px;
+}
+.contingut{
+  width:96%;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: justify;
+}
