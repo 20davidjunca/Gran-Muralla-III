@@ -307,10 +307,17 @@ footer * {
   margin-top:20px;
   width:50%;
   border-radius: 5px 5px 10px 10px;
+  height: auto;
 }
 .contingut{
   width:96%;
   display: flex;
   flex-flow: column wrap;
-  text-align: justify;
+  align-items: center;
+  margin-top: 80px;
+  padding: 20px;
+}
+.content {
+  display: flex;
+  flex-flow: nowrap row;
 }
